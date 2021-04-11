@@ -1,0 +1,13 @@
+---
+id: "dmn_workshop"
+name: "Working with RHPAM Authoring Tools"
+
+content:
+  url: https://raw.githubusercontent.com/kmacedovarela/tooling-workshop.git/master
+
+modules:
+  activate:
+  - introduction
+  - getting-started
+  - authoring-decisions
+  - deploying-project

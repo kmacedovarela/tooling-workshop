@@ -1,0 +1,12 @@
+config:
+    renderer: markdown
+
+modules:
+  introduction:
+    name: Introduction
+  getting-started:
+    name: Getting Started 
+  authoring-decisions:
+    name: Authoring and testing decisions
+  deploying-project:
+    name:  Deploying and consuming services
