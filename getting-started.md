@@ -16,7 +16,7 @@ If this is the first time you are using VSCode, it would be interesting to also 
 
 ![]({% image_path vscode-install-code-path.png %}){:width="600px"}
 
-## Create new a project
+## 2.1. Create new a project
 
 Let's create a new project using the maven archetype. This project should contain the structure and files that Business Central expects, so this project should be editable and authored in both VScode and Business Central. 
 

@@ -9,7 +9,7 @@ metadata:
   labels:
     app: bu-wksp-pam-tool
   name: bu-wksp-pam-tool
-  namespace: bu-bu-wksp-pam-tool
+  namespace: bu-wksp-pam-tool
 spec:
   replicas: 1
   selector:
@@ -38,7 +38,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: bu-wksp-pam-tool-service
-  namespace: bu-bu-wksp-pam-tool
+  namespace: bu-wksp-pam-tool
   labels:
     app: bu-wksp-pam-tool-service
 spec:
@@ -52,7 +52,7 @@ apiVersion: route.openshift.io/v1
 kind: Route
 metadata:
     name: bu-wksp-pam-tool-route
-    namespace: bu-bu-wksp-pam-tool
+    namespace: bu-wksp-pam-tool
     labels:
       app: bu-wksp-pam-tool
 spec:
